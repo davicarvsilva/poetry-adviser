@@ -33,6 +33,7 @@ nav ul{
 
 #loading-gif{
     position: absolute;
+    display: none;
     width: 200px;
     top:50%;
     left: 50%;
@@ -43,11 +44,12 @@ nav ul{
     background-color: #abdbe3;
     padding: 10px 15px;
     border: none;
+    margin-top: 1%;
     border-radius: 10px;
 }
 
 #submit-btn{
-    margin-top: 2%;
+    margin-top: 1%;
     border: none;
     padding: 10px 15px;
     border-radius: 10px;
@@ -59,7 +61,8 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 20%;
+    margin: 1% 20%;
+    padding:0 7%;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #C0CEE6;
@@ -89,5 +92,16 @@ nav ul{
     }
     #poem{
         margin: 0 5%;
+    }
+    #id_author_name{
+        margin-bottom: 5%;
+    }
+
+    #id_author_name{
+        margin-top: 5%;
+    }
+
+    #submit-btn{
+        margin-top: 5%;
     }
 }
