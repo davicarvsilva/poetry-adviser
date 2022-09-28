@@ -31,6 +31,14 @@ nav ul{
     align-items: center;
 }
 
+#loading-gif{
+    position: absolute;
+    width: 200px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #id_author_name{
     background-color: #abdbe3;
     padding: 10px 15px;

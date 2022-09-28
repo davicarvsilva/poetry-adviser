@@ -1,10 +1,13 @@
 window.onload = function(){
+    document.getElementById("loading-gif").style.display = "none";
+
     poem = {
         init:function(){
             document.getElementById("submit-btn").addEventListener("click", this.getPoem)
         },
     
         getPoem:function(event){
+            document.getElementById("loading-gif").style.display = "block";
             dropdownMenu = document.getElementById("id_author_name")
             authorName = dropdownMenu.options[dropdownMenu.selectedIndex].text
 
@@ -31,6 +34,7 @@ window.onload = function(){
                 })
 
                 poemElement.append(div)
+                document.getElementById("loading-gif").style.display = "none";
             })
         }, 
 
